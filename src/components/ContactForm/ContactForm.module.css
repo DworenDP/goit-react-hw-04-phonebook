@@ -1,0 +1,32 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.formLabel {
+  text-align: center;
+  padding: 5px;
+  margin: 8px;
+  text-transform: capitalize;
+}
+
+input {
+  min-height: 25px;
+  font-size: medium;
+  padding: 8px;
+  padding-left: 15px;
+  border-radius: 8px;
+  border: none;
+
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.formBtn {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+}
